@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HI
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+
+        <style>
+            html{
+                background-size: cover;
+            }
+
+            .box{
+                border-radius: 10px;
+                color :white;
+                border-color: #ffa500;
+                outline: none;
+                margin:10px;
+                height : 30vh;
+                width : 50%;
+                
+            }
+            .super{
+                padding: 10px;
+                border-radius: 10px;
+                border: 3px solid orange;
+            }
+            .btn-lg{
+    
+                border-radius: 30px;
+                border-color: orange;
+                padding : 15px 25px;
+                color : orange;
+                outline : none;
+                margin : 10px;
+            }
+
+            .task input{
+                border-radius : 10px;
+                margin : 10px;
+                outline : none;
+                color : white;
+            }
+            .jumbotron{
+                text-align: center;
+                border: 3px solid;
+                border-radius: 10px;
+                border-color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "container bg-primary super">
+            <div class = "jumbotron ">
+                <h1>TODO APP</h1>
+            </div>
+            <div class = "container my-class">
+                <input id = "inp" class = "bg-dark box" type = "text" placeholder = "tick tick....." name = "tick">
+                <input id = "b" class = "bg-dark btn-lg" type = "submit" value = "+" >
+            </div>
+            <div class = "container" id = "result">
+                <ul id = "lst">
+
+                </ul>
+              
+
+            </div>    
+        </div>
+    </body>
+    <script src="index.js"></script>  
+
+
+</html>
